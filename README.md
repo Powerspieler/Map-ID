@@ -6,8 +6,10 @@ Useful regarding pictures added as custom maps into the world.
 Convert Pictures to Minecraft Custom Maps: [https://mc-map.djfun.de/](https://mc-map.djfun.de/)
 
 ## Usage
-Get a list for available ID's: (List contains entries from my server)
-  /trigger Map
 
-Set ID (Holding an empty map in mainhand; only one item is being used):
-  /trigger Map set [ID]
+#### /trigger Map
+Get a list for available ID's (List contains entries from my server)
+
+#### /trigger Map set [ID]
+Set ID (Holding an empty map in mainhand; only one item is being used)
+  
