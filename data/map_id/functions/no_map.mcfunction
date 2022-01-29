@@ -1,0 +1,3 @@
+scoreboard players reset @s Map
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:filled_map"}}] run tellraw @s ["",{"text":"[","color":"gold"},{"text":"Map ID","color":"yellow"},{"text":"] ","color":"gold"},{"text":"Use an empty map to change its ID.","color":"red"}]
+execute unless entity @s[nbt={SelectedItem:{id:"minecraft:filled_map"}}] run tellraw @s ["",{"text":"[","color":"gold"},{"text":"Map ID","color":"yellow"},{"text":"] ","color":"gold"},{"text":"Can't modify Map ID of that.","color":"red"}]

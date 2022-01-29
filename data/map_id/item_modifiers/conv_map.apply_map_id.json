@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:map_id"
+    },
+    "ops": [
+      {
+        "source": "value",
+        "target": "map",
+        "op": "replace"
+      }
+    ]
+  }
+]
